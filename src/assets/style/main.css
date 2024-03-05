@@ -16,5 +16,5 @@
 
 body,
 #app {
-  @apply h-dvh;
+  @apply h-dvh bg-magnolia;
 }

@@ -93,6 +93,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Mobile-first workflow
 - [Vue](https://reactjs.org/) - The Progressive JavaScript Framework
 - [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [@savvywombat/tailwindcss-grid-areas](https://savvywombat.com.au/tailwind-css/grid-areas) - A plugin to provide Tailwind CSS utilities for named grid areas.
 - [Yup](https://github.com/jquense/yup) - Yup is a schema builder for runtime value parsing and validation.
 - [Cypress](https://www.cypress.io/) - With Cypress, you can easily create tests for your modern web applications, debug them visually, and automatically run them in your continuous integration builds.
 

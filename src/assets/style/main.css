@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: local("Ubuntu"),
+    url("../../../public/fonts/Ubuntu-Bold.ttf") format("ttf"),
+    url("../../../public/fonts/Ubuntu-Medium.ttf") format("ttf"),
+    url("../../../public/fonts/Ubuntu-Regular.ttf") format("ttf");
+}
+
+body,
+#app {
+  @apply h-dvh;
+}

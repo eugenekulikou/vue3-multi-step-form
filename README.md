@@ -46,8 +46,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/evk11/vue3-multi-step-form](https://github.com/evk11/vue3-multi-step-form)
+- Live Site URL: [https://vue3-multi-step-form.vercel.app/](https://vue3-multi-step-form.vercel.app/)
 
 ### Usage
 
@@ -88,13 +88,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Built with
 
 - Semantic HTML5 markup
-
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 - [Vue](https://reactjs.org/) - The Progressive JavaScript Framework
 - [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
 - [Yup](https://github.com/jquense/yup) - Yup is a schema builder for runtime value parsing and validation.
+- [Cypress](https://www.cypress.io/) - With Cypress, you can easily create tests for your modern web applications, debug them visually, and automatically run them in your continuous integration builds.
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 

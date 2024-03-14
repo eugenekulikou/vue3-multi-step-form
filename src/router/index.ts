@@ -1,10 +1,17 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import PlanView from "../views/PlanView.vue";
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+import PlanView from '@/views/PlanView.vue';
+import NotFound from '@/views/NotFound.vue';
 
 const routes: Array<RouteRecordRaw> = [
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
   {
-    path: "/",
-    name: "plan-form",
+    path: '/',
+    redirect: '/step/1',
+  },
+
+  {
+    path: '/step/:stepIndex',
+    name: 'plan-form',
     component: PlanView,
   },
   // {

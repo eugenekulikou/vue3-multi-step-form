@@ -10,7 +10,7 @@ const routes: Array<RouteRecordRaw> = [
   },
 
   {
-    path: "/step/:id",
+    path: "/step/:stepIndex",
     name: "plan-form",
     component: PlanView,
   },
